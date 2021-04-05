@@ -17,28 +17,28 @@
 <meta property="og:site_name" content="アスノヨゾラ哨戒班">
 <meta property="og:description" content="缓冲区溢出，OD说明">
 <meta property="og:locale">
-<meta property="og:image" content="https://achetair.github.io/2018/12/14/0day/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/IDA-strcpy.png">
-<meta property="og:image" content="https://achetair.github.io/2018/12/14/0day/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/OD-strcpy.png">
-<meta property="og:image" content="https://achetair.github.io/2018/12/14/0day/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/OD-%E5%A0%86%E6%A0%88%E5%88%86%E6%9E%90.png">
-<meta property="og:image" content="https://achetair.github.io/2018/12/14/0day/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/OD-%E5%AD%98%E5%82%A8.png">
-<meta property="og:image" content="https://achetair.github.io/2018/12/14/0day/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/OD-9999.png">
-<meta property="og:image" content="https://achetair.github.io/2018/12/14/0day/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/OD-1234567.png">
-<meta property="og:image" content="https://achetair.github.io/2018/12/14/0day/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/IDA-success.png">
-<meta property="og:image" content="https://achetair.github.io/2018/12/14/0day/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/OD-txt.png">
-<meta property="og:image" content="https://achetair.github.io/2018/12/14/0day/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/IDA-shellcode.png">
-<meta property="og:image" content="https://achetair.github.io/2018/12/14/0day/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/OD-buffer.png">
-<meta property="og:image" content="https://achetair.github.io/2018/12/14/0day/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/OD-retn.png">
-<meta property="og:image" content="https://achetair.github.io/2018/12/14/0day/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/OD-%E7%A1%AC%E7%BC%96%E7%A0%81.png">
-<meta property="og:image" content="https://achetair.github.io/2018/12/14/0day/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/%E7%A1%AC%E7%BC%96%E7%A0%81.png">
-<meta property="og:image" content="https://achetair.github.io/2018/12/14/0day/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/shellcode-success.png">
-<meta property="og:image" content="https://achetair.github.io/2018/12/14/0day/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/OD-test.png">
-<meta property="og:image" content="https://achetair.github.io/2018/12/14/0day/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/%E6%A0%88%E9%A1%B6%E6%8F%90%E9%AB%98.png">
+<meta property="og:image" content="https://achetair.github.io/2018/12/14/0day/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/IDA-strcpy.png">
+<meta property="og:image" content="https://achetair.github.io/2018/12/14/0day/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/OD-strcpy.png">
+<meta property="og:image" content="https://achetair.github.io/2018/12/14/0day/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/OD-%E5%A0%86%E6%A0%88%E5%88%86%E6%9E%90.png">
+<meta property="og:image" content="https://achetair.github.io/2018/12/14/0day/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/OD-%E5%AD%98%E5%82%A8.png">
+<meta property="og:image" content="https://achetair.github.io/2018/12/14/0day/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/OD-9999.png">
+<meta property="og:image" content="https://achetair.github.io/2018/12/14/0day/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/OD-1234567.png">
+<meta property="og:image" content="https://achetair.github.io/2018/12/14/0day/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/IDA-success.png">
+<meta property="og:image" content="https://achetair.github.io/2018/12/14/0day/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/OD-txt.png">
+<meta property="og:image" content="https://achetair.github.io/2018/12/14/0day/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/IDA-shellcode.png">
+<meta property="og:image" content="https://achetair.github.io/2018/12/14/0day/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/OD-buffer.png">
+<meta property="og:image" content="https://achetair.github.io/2018/12/14/0day/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/OD-retn.png">
+<meta property="og:image" content="https://achetair.github.io/2018/12/14/0day/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/OD-%E7%A1%AC%E7%BC%96%E7%A0%81.png">
+<meta property="og:image" content="https://achetair.github.io/2018/12/14/0day/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/%E7%A1%AC%E7%BC%96%E7%A0%81.png">
+<meta property="og:image" content="https://achetair.github.io/2018/12/14/0day/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/shellcode-success.png">
+<meta property="og:image" content="https://achetair.github.io/2018/12/14/0day/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/OD-test.png">
+<meta property="og:image" content="https://achetair.github.io/2018/12/14/0day/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/%E6%A0%88%E9%A1%B6%E6%8F%90%E9%AB%98.png">
 <meta property="article:published_time" content="2018-12-14T12:16:43.000Z">
 <meta property="article:modified_time" content="2019-10-09T04:56:11.734Z">
 <meta property="article:author" content="Achetair">
 <meta property="article:tag" content="bin">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://achetair.github.io/2018/12/14/0day/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/IDA-strcpy.png">
+<meta name="twitter:image" content="https://achetair.github.io/2018/12/14/0day/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/IDA-strcpy.png">
   
     <link rel="alternative" href="/atom.xml" title="アスノヨゾラ哨戒班" type="application/atom+xml">
   
@@ -272,7 +272,7 @@
 <!-- toc -->
 
 <h1 id="从IDA的角度看危险函数"><a href="#从IDA的角度看危险函数" class="headerlink" title="从IDA的角度看危险函数"></a>从IDA的角度看危险函数</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>在书中，给出了危险的代码。但是在实际的过程中，我们如何通过IDA观察到危险的函数，是最重要的。</p>
-<h2 id="存在危险处的汇编"><a href="#存在危险处的汇编" class="headerlink" title="存在危险处的汇编"></a>存在危险处的汇编</h2><p><img src="0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/IDA-strcpy.png"></p>
+<h2 id="存在危险处的汇编"><a href="#存在危险处的汇编" class="headerlink" title="存在危险处的汇编"></a>存在危险处的汇编</h2><p><img src="/2018/12/14/0day/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/IDA-strcpy.png"></p>
 <p>栈溢出，用栈作为了缓冲区，加上不使用安全函数的使用而造成的。如果红框中</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">lea edx,[ebx+var_c]--&gt;mov edx, [ebx+var_c]</span><br></pre></td></tr></table></figure>
 
@@ -285,31 +285,31 @@
 <ul>
 <li>ImageBase不知道的，去PE里面学，在可选PE头中</li>
 </ul>
-<h2 id="定位strcpy-函数"><a href="#定位strcpy-函数" class="headerlink" title="定位strcpy 函数"></a>定位strcpy 函数</h2><p><img src="0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/OD-strcpy.png"></p>
+<h2 id="定位strcpy-函数"><a href="#定位strcpy-函数" class="headerlink" title="定位strcpy 函数"></a>定位strcpy 函数</h2><p><img src="/2018/12/14/0day/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/OD-strcpy.png"></p>
 <p>strcpy是传入两个字符串的首地址。由前面IDA的分析，知道一个函数首地址是作为参数，一个是栈空间里面。在OD中，程序已经分析出了局部变量和参数<code>local</code>和<code>arg</code>。</p>
 <p>对比两个字符串长度的大小，发现局部变量的字符串小了很多。同时strcmp存放在局部的第一个变量<code>ebp-4</code>。栈空间是连续的，测试溢出之后是否可以淹没<code>ebp-4</code>中的数据。</p>
 <h2 id="OD中堆栈分析"><a href="#OD中堆栈分析" class="headerlink" title="OD中堆栈分析"></a>OD中堆栈分析</h2><p>（1）寻找变量的位置</p>
 <p>进行数据窗口跟随</p>
-<p><img src="0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/OD-%E5%A0%86%E6%A0%88%E5%88%86%E6%9E%90.png"></p>
+<p><img src="/2018/12/14/0day/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/OD-%E5%A0%86%E6%A0%88%E5%88%86%E6%9E%90.png"></p>
 <p>局部数组的地址：<code>0012FB18</code></p>
 <p>参数地址：<code>0012FB7C</code></p>
 <p>寻址函数局部变量的地址，使用命令<code>db 0012FB18</code></p>
 <p>（2）观察变量的存储</p>
-<p><img src="0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/OD-%E5%AD%98%E5%82%A8.png"></p>
+<p><img src="/2018/12/14/0day/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/OD-%E5%AD%98%E5%82%A8.png"></p>
 <p>输入的数值是<code>1111</code>，发现程序会在输入字符串之后补入<code>\x00</code>。由于长度不够，所以之后的四个字节的值是-1。换输入的值：9999</p>
-<p><img src="0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/OD-9999.png"></p>
+<p><img src="/2018/12/14/0day/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/OD-9999.png"></p>
 <p>输入正确的值，观察情况：</p>
-<p><img src="0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/OD-1234567.png"></p>
+<p><img src="/2018/12/14/0day/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/OD-1234567.png"></p>
 <p>发现输入的字符0和寄存器的值为0是两回事。所以需要全零的话，输入的字符串首字符比1大，并且是8个字符。</p>
 <h1 id="淹没返回地址"><a href="#淹没返回地址" class="headerlink" title="淹没返回地址"></a>淹没返回地址</h1><h2 id="返回地址说明"><a href="#返回地址说明" class="headerlink" title="返回地址说明"></a>返回地址说明</h2><p>书上也得很清楚，这里需要确定成员变量的偏移值，与ebp的差值。返回地址在<code>ebp+4</code>，ebp中放的ebp的值。</p>
 <h2 id="地址修改为成功的地址"><a href="#地址修改为成功的地址" class="headerlink" title="地址修改为成功的地址"></a>地址修改为成功的地址</h2><p>（1）确定成功的地址</p>
-<p><img src="0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/IDA-success.png"></p>
+<p><img src="/2018/12/14/0day/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/IDA-success.png"></p>
 <p>（2）确定输入字符串的长度</p>
 <p>数组的偏移：ebp-C</p>
 <p>地址偏移:ebp+4</p>
 <p>相差14h，注意小端的排序方式。</p>
 <p>（3）观察OD的数据窗口</p>
-<p><img src="0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/OD-txt.png"></p>
+<p><img src="/2018/12/14/0day/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/OD-txt.png"></p>
 <h1 id="第一次植入简单代码"><a href="#第一次植入简单代码" class="headerlink" title="第一次植入简单代码"></a>第一次植入简单代码</h1><h2 id="说明-1"><a href="#说明-1" class="headerlink" title="说明"></a>说明</h2><p>有了PE一些插入代码的基础，这里的原理是一致的。教程中人性化的给我们扩大了堆栈的空间，但实际中是不可能的。初级阶段先这样吧。</p>
 <ul>
 <li>目标<ul>
@@ -320,40 +320,40 @@
 </li>
 </ul>
 <h2 id="注入代码"><a href="#注入代码" class="headerlink" title="注入代码"></a>注入代码</h2><p>（1）确定注入的思路</p>
-<p><img src="0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/IDA-shellcode.png"></p>
+<p><img src="/2018/12/14/0day/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/IDA-shellcode.png"></p>
 <p>需要注入的大小：30h+4h</p>
 <p>需要注入的信息大小：4个push，一个弹窗，不要jmp恢复，两个字符串</p>
 <p>注入的地址类型：RVA，动态注入</p>
 <p>（2）OD确定注入的地址信息</p>
 <p>这里主要确定的是堆栈的地址</p>
-<p><img src="0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/OD-buffer.png"></p>
+<p><img src="/2018/12/14/0day/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/OD-buffer.png"></p>
 <p>下面的指令改成 db，好看一些。接下来计算返回地址：<code>0012FAF0+34 = 0012FB24</code></p>
-<p><img src="0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/OD-retn.png"></p>
+<p><img src="/2018/12/14/0day/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/OD-retn.png"></p>
 <p>（3）确定修改的代码</p>
 <p>返回地址：<code>0012FAF0</code></p>
 <p>指令大小:</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">push 0 -&gt;6A00	2h   </span><br><span class="line">push addr--&gt;68 xxxxxxx	5h</span><br><span class="line">call MessageBoxA   7h    ---------- 15h</span><br><span class="line">----------------------  1Fh--31 用于字符串</span><br><span class="line">title: hello  68 65 6c 6c 6f 20 00 --7h</span><br><span class="line">message: SoCool!  53 6f 43 6f 6f 6c 21 00 -8h</span><br><span class="line">--------------------- 其余补充0 10h</span><br><span class="line">--------------------- 填入地址 F0 FA 12 00</span><br></pre></td></tr></table></figure>
 <p>弄好指令转入OD，然后修正。可以直接进行计算但是有点累。</p>
 <p>这里有个硬编码工具，是查询DLL的。</p>
-<p><img src="0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/OD-%E7%A1%AC%E7%BC%96%E7%A0%81.png"></p>
+<p><img src="/2018/12/14/0day/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/OD-%E7%A1%AC%E7%BC%96%E7%A0%81.png"></p>
 <p><code>scanf</code>和<code>fscanf</code>对于00 非常敏感，这里进行注入的时候，注意不要出现00，会导致之后的代码无法写入。这里这重新整理思路，不需要回复的话。可以把几个寄存器都用上。这里需要注意的是关于字符串的写入，依然是按照小端的模式。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">ecx --&gt; 0</span><br><span class="line">edx --&gt; title:hiii:68 69 69 69</span><br><span class="line">eax --&gt; message:gotoedge: 65 67 64 65 6f 74 6f 67</span><br></pre></td></tr></table></figure>
 
 <p>一些指令的硬编码</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">xor ecx,ecx : 31 C9</span><br><span class="line">push 68696969 : 68 68 69 69 69</span><br><span class="line">mov edx,esp : 89 E2</span><br><span class="line">push 65676465 : 68 65 67 64 65</span><br><span class="line">push 6f746f67 : 68 6f 74 6f 67</span><br><span class="line">mov eax,esp : 89 E0</span><br><span class="line">push ecx : 51</span><br><span class="line">push edx : 52</span><br><span class="line">push eax : 50</span><br><span class="line">push ecx : 51</span><br><span class="line">mov eax,77D507EA : B8 EA 07 D5 77</span><br><span class="line">call eax : FF D0</span><br><span class="line">字节总计：2+5+2+5+5+2+1+1+1+1+5+2&#x3D;32 --&gt; 20h</span><br><span class="line">返回地址：7C FB 12 00</span><br><span class="line">空白用：90</span><br></pre></td></tr></table></figure>
 
-<p><img src="0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/%E7%A1%AC%E7%BC%96%E7%A0%81.png"></p>
+<p><img src="/2018/12/14/0day/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/%E7%A1%AC%E7%BC%96%E7%A0%81.png"></p>
 <h2 id="成功测试"><a href="#成功测试" class="headerlink" title="成功测试"></a>成功测试</h2><p>（1）成果</p>
-<p><img src="0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/shellcode-success.png"></p>
+<p><img src="/2018/12/14/0day/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/shellcode-success.png"></p>
 <p>和预期的结果有点出入，调试的过程。</p>
 <p>（2）调试阶段</p>
 <p>主要就是一个返回地址和代码的位置问题</p>
-<p><img src="0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/OD-test.png"></p>
+<p><img src="/2018/12/14/0day/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/OD-test.png"></p>
 <p>（3）确定地址</p>
 <p><code>0012FAF0</code> 的地址是错误的，需要进行地址的修正。这里的修正的方法是很重要。首先这里的地址为什么错误要分析一下。</p>
 <p>这里的反弹是到读取到主程序的那个地址中的，局部地址为什么不行，我接着看看。</p>
 <p>最后发现是一个栈顶提高的问题，注入的code，push太多了，导致栈顶被提高了。</p>
-<p><img src="0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/%E6%A0%88%E9%A1%B6%E6%8F%90%E9%AB%98.png"></p>
+<p><img src="/2018/12/14/0day/0day-%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA/%E6%A0%88%E9%A1%B6%E6%8F%90%E9%AB%98.png"></p>
 <p>这个问题在之后会解决，所以最后返回到了最初读取的内存的位置。</p>
 <h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><ul>
 <li><p>硬编码：</p>
