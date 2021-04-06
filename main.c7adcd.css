@@ -754,7 +754,8 @@ body,
 
 .article-entry pre,
 .article-entry .highlight {
-  background: #1a0139;
+  /*background: #1a0139;*/
+  background: #272822;
   margin: 10px 0;
   padding: 10px 10px;
   overflow: hidden;
@@ -802,8 +803,8 @@ body,
 .article-entry .highlight .gutter pre,
 .article-entry .highlight .gutter pre .line,
 .article-entry .gist .gist-file .gist-data .line-numbers {
-  /* color: #666; */
-  color: #fc0000; }
+  color: #666;
+  /*color: #fc0000;*/ }
 
 .article-entry pre,
 .article-entry code {
@@ -910,8 +911,8 @@ body,
   text-decoration: underline; }
 
 pre .comment {
-  /* color: #75715e; */
-  color: #ffd300; }
+  color: #75715e;
+  /* color: #ffd300; */ }
 
 pre .keyword,
 pre .function .keyword,
